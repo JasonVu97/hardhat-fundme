@@ -31,5 +31,8 @@
         "test": "yarn hardhat test",
         "compile": "yarn hardhat compile",
         "test:staging": "yarn hardhat test --network goerli"
+    },
+    "dependencies": {
+        "@openzeppelin/contracts": "^4.8.0"
     }
 }
